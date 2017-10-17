@@ -32,8 +32,6 @@ function getProducts(req, res) {
 
 function createProduct(req, res) {
 
-    console.log('POST /api/product')
-    console.log(req.body)
     let product = new Product()
     product.name = req.body.name
     product.picture = req.body.picture
