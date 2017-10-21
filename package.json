@@ -1,7 +1,7 @@
 {
-  "name": "api-node-example",
+  "name": "api-node",
   "version": "1.0.0",
-  "description": "ejemplo de como hacer una api rest con node express y mongo db",
+  "description": "API RESTFUL con node , express y mongo db",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -10,8 +10,12 @@
   "author": "Pablo Gramajo",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
     "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.1",
     "mongodb": "^2.2.33",
     "mongoose": "^4.12.2"
   },
